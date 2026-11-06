@@ -1,0 +1,11 @@
+D:/Projects/hol-sync/target-root\debug\deps\lz4_flex-3554aad08b909698.d: C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\lib.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\mod.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\compress.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\hashtable.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\decompress_safe.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\fastcpy.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\sink.rs
+
+D:/Projects/hol-sync/target-root\debug\deps\liblz4_flex-3554aad08b909698.rmeta: C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\lib.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\mod.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\compress.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\hashtable.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\decompress_safe.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\fastcpy.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\sink.rs
+
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\lib.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\mod.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\compress.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\hashtable.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\block\decompress_safe.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\fastcpy.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\lz4_flex-0.14.0\src\sink.rs:

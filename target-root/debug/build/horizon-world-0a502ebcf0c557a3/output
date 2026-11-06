@@ -1,0 +1,6 @@
+cargo:rerun-if-changed=D:\Projects\hol-sync\crates\horizon-world\src
+cargo:rerun-if-changed=D:\Projects\hol-sync\crates\horizon-world\../horizon-core\src
+cargo:rerun-if-changed=D:\Projects\hol-sync\crates\horizon-world\Cargo.toml
+cargo:rerun-if-changed=D:\Projects\hol-sync\crates\horizon-world\../horizon-core\Cargo.toml
+cargo:rerun-if-changed=D:\Projects\hol-sync\crates\horizon-world\../../Cargo.lock
+cargo:rustc-env=HORIZON_WORLD_SOURCES=b1e6bb530c5772c882c96d6fe4f11017

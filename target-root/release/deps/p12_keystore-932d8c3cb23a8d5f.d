@@ -1,0 +1,11 @@
+D:/Projects/hol-sync/target-root\release\deps\p12_keystore-932d8c3cb23a8d5f.d: C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\lib.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\codec.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\error.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\keystore.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\oid.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\pbes1.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\secret.rs
+
+D:/Projects/hol-sync/target-root\release\deps\libp12_keystore-932d8c3cb23a8d5f.rmeta: C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\lib.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\codec.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\error.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\keystore.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\oid.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\pbes1.rs C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\secret.rs
+
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\lib.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\codec.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\error.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\keystore.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\oid.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\pbes1.rs:
+C:\Users\nrpems\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\p12-keystore-0.2.1\src\secret.rs:
