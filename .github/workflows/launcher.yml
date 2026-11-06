@@ -50,20 +50,6 @@ jobs:
             binary: horizon-launcher.exe
             asset: horizon-launcher-windows-x64.zip
             rustflags: -C target-feature=+crt-static
-          - name: linux
-            os: ubuntu-22.04
-            binary: horizon-launcher
-            asset: horizon-launcher-linux-x86_64.tar.gz
-          - name: macos
-            os: macos-15
-            binary: horizon-launcher
-            asset: horizon-launcher-macos-arm64.zip
-          # Intel Macs: the same runner, another target.
-          - name: macos-x64
-            os: macos-15
-            target: x86_64-apple-darwin
-            binary: horizon-launcher
-            asset: horizon-launcher-macos-x64.zip
     runs-on: ${{ matrix.os }}
     timeout-minutes: 60
     env:

@@ -16,6 +16,18 @@
 - **Блокеры:**
 - **Комментарии:**
 
+### T-002 Сборки только под Windows
+- **Статус:** in-progress
+- **Описание / план:** `C:\Users\nrpems\.claude\plans\wise-singing-yao.md`: в `game.yml` и `launcher.yml` оставить только Windows, убрать серверный Linux-архив.
+- **Чек-лист:**
+  - [ ] `game.yml`: pick, matrix, release
+  - [ ] `launcher.yml`: matrix
+  - [ ] отмена текущих прогонов, коммит, тег, запуск `game`
+- **Критерии готовности:**
+  - [ ] релиз `launcher@1.3.1` с Setup.exe и pre-release `nightly` с Windows-архивом опубликованы
+- **Блокеры:**
+- **Комментарии:**
+
 ## Очередь
 
 ## История
