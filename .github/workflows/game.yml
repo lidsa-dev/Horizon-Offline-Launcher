@@ -155,15 +155,21 @@ jobs:
           path: dist
           pattern: game-*
           merge-multiple: true
-      - name: Sign the checksums (SHA256SUMS, SHA256SUMS.sig) for the nightly channel
+      - name: Sign the checksums for the nightly channel (SHA256SUMS.sig) and for this build (SHA256SUMS.v2.sig)
         env:
           RELEASE_SIGNING_KEY: ${{ secrets.RELEASE_SIGNING_KEY }}
+          ALSO_FOR: nightly-${{ needs.pick.outputs.date }}-${{ needs.pick.outputs.short }}
         run: |
           [[ -n "$RELEASE_SIGNING_KEY" ]] || { echo "::error::The RELEASE_SIGNING_KEY secret is not set"; exit 1; }
           bash tools/ci/sign_release.sh nightly dist/horizon-windows-x64.zip
       - uses: dtolnay/rust-toolchain@stable
-      - name: The signature, checked as launchers check it
-        run: cargo run --locked --quiet -p horizon-release-sign -- verify --tag nightly --publishing dist
+      - name: The signatures, checked as launchers check them
+        env:
+          DATE: ${{ needs.pick.outputs.date }}
+          SHORT: ${{ needs.pick.outputs.short }}
+        run: |
+          cargo run --locked --quiet -p horizon-release-sign -- verify --tag nightly --publishing dist
+          cargo run --locked --quiet -p horizon-release-sign -- verify --tag "nightly-${DATE}-${SHORT}"             --signature SHA256SUMS.v2.sig --publishing dist
       - name: Publish as the `nightly` pre-release
         env:
           GH_TOKEN: ${{ github.token }}
@@ -181,5 +187,5 @@ jobs:
           gh release create nightly --prerelease --latest=false --target "$GITHUB_SHA" \
             --title "Nightly $DATE · $SHORT" --notes-file notes.md \
             "dist/horizon-windows-x64.zip#Game files the launcher installs: Windows (horizon-windows-x64.zip)" \
-            dist/SHA256SUMS dist/SHA256SUMS.sig
+            dist/SHA256SUMS dist/SHA256SUMS.sig dist/SHA256SUMS.v2.sig
           python3 tools/ci/nightly.py prune --days 7
